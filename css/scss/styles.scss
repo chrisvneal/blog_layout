@@ -1,10 +1,6 @@
 $sidebar-background-color: skyblue;
 
-.sidebar {
-  background: $sidebar-background-color;
-  // grid-row-end: end;
-  // height: 100vh;
-}
+
 
 .wrapper {
   display: grid;
@@ -13,29 +9,18 @@ $sidebar-background-color: skyblue;
   grid-template-rows: repeat(6, 1fr);
 }
 
+.sidebar {
+  background: $sidebar-background-color;
+  // grid-row-end: end;
+  height: 100vh;
+}
+
 .sidebar, header, main, aside {
   border: 1px dashed red;
 }
 
-header {
-  // align-self: start;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-main {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2; 
-  grid-row-end: 7; 
-  // align-self: start;
-}
 
 .middleSection {
   display: flex;
   flex-flow: column wrap;
-  // align-items: stretch;
-  // width: auto;
 }
