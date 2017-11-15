@@ -13,15 +13,13 @@
   position: fixed;
   width: 16.875em;
   .logo {
-    height: 140px;
-    margin: .80em auto;
+    height: $interface-topPadding;
   }
 }
 
 .middleSection {
   display: flex;
   flex-flow: column wrap;
-  padding-top: 96px;
   max-height: 100vh;
   header {
     padding: 1em 0;
@@ -40,3 +38,8 @@
   width: 18.875em;
   right: 0;
 }
+
+.middleSection, .rightSection {
+  padding-top: $interface-topPadding;
+}
+

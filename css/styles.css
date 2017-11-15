@@ -35,13 +35,11 @@ aside {
 }
 .leftSection .logo {
   height: 140px;
-  margin: .80em auto;
 }
 
 .middleSection {
   display: flex;
   flex-flow: column wrap;
-  padding-top: 96px;
   max-height: 100vh;
 }
 .middleSection header {
@@ -59,6 +57,10 @@ aside {
   position: fixed;
   width: 18.875em;
   right: 0;
+}
+
+.middleSection, .rightSection {
+  padding-top: 140px;
 }
 
 /*# sourceMappingURL=styles.css.map */
