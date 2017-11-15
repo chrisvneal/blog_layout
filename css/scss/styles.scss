@@ -1,15 +1,4 @@
 @import "partials/variables";
+@import "partials/global_styling";
 @import "partials/layout";
-body {
-  background: #fff;
-}
 
-.leftSection {
-  background: $sidebar-background-color;
-}
-
-.middleSection header,
-.middleSection main,
-aside {
-  background: $interface-mainColor
-}

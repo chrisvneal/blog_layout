@@ -1,0 +1,16 @@
+/*------------------ global styling ------------------
+#####################################################*/
+
+body {
+  background: #fff;
+}
+
+.leftSection {
+  background: $sidebar-background-color;
+}
+
+.middleSection header,
+.middleSection main,
+aside {
+  background: $interface-mainColor
+}
