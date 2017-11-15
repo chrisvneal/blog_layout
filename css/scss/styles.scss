@@ -2,10 +2,10 @@
 $sidebar-background-color: skyblue;
 $brand-mainColor: lightgray; // dark red
 $interface-mainColor: #fff;
-
 body {
-  background: $brand-mainColor;
+  background: #fff;
 }
+
 .wrapper {
   display: grid;
   grid-template-columns: 16.875em 4fr 18.875em;
@@ -27,6 +27,11 @@ body {
   }
 }
 
+.middleSection main,
+aside {
+  background: $interface-mainColor
+}
+
 .middleSection {
   display: flex;
   flex-flow: column wrap;
@@ -35,23 +40,17 @@ body {
   header {
     padding: 1em 0;
     position: fixed;
-    background: $interface-mainColor;
     top: 0;
     width: 81.1875em;
-
     nav a {
       font-size: 2em;
     }
-  }
-  main {
-    background: $interface-mainColor;
   }
 }
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: $interface-mainColor;
   width: 18.875em;
   right: 0;
 }

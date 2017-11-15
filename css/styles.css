@@ -1,5 +1,5 @@
 body {
-  background: lightgray;
+  background: #fff;
 }
 
 .wrapper {
@@ -23,6 +23,11 @@ body {
   max-width: 100%;
 }
 
+.middleSection main,
+aside {
+  background: #fff;
+}
+
 .middleSection {
   display: flex;
   flex-flow: column wrap;
@@ -32,21 +37,16 @@ body {
 .middleSection header {
   padding: 1em 0;
   position: fixed;
-  background: #fff;
   top: 0;
   width: 81.1875em;
 }
 .middleSection header nav a {
   font-size: 2em;
 }
-.middleSection main {
-  background: #fff;
-}
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: #fff;
   width: 18.875em;
   right: 0;
 }
