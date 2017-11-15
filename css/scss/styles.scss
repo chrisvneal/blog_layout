@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   padding-top: 96px;
+  max-height: 100vh;
   header {
     padding: 1em 0;
     position: fixed;
