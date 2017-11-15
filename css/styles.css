@@ -12,6 +12,13 @@
   position: fixed;
   width: 16.875em;
 }
+.leftSection .logo {
+  width: 280px;
+  height: 140px;
+  display: block;
+  margin: .80em auto;
+  max-width: 100%;
+}
 
 .middleSection {
   display: flex;
@@ -21,28 +28,20 @@
 .middleSection header {
   padding: 1em 0;
   position: fixed;
-  background: #ffcc80;
+  background: #b71c1c;
   top: 0;
   width: 81.1875em;
 }
 .middleSection main {
-  background: #ab9093;
+  background: #b71c1c;
 }
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: #0277bd;
+  background: #b71c1c;
   width: 18.875em;
   right: 0;
-}
-
-.logo {
-  width: 280px;
-  height: 140px;
-  display: block;
-  margin: .80em auto;
-  max-width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

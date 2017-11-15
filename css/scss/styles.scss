@@ -1,57 +1,48 @@
+// Colors
 $sidebar-background-color: skyblue;
-
-
-
+$brand-mainColor: #b71c1c; // dark red
 .wrapper {
   display: grid;
   grid-template-columns: 16.875em 4fr 18.875em;
-  grid-template-rows: repeat(6, 1fr);  
+  grid-template-rows: repeat(6, 1fr);
   grid-auto-rows: minmax(150px, auto);
   position: relative;
 }
-
-
 
 .leftSection {
   height: 100vh;
   background: $sidebar-background-color;
   position: fixed;
   width: 16.875em;
+  .logo {
+    width: 280px;
+    height: 140px;
+    display: block;
+    margin: .80em auto;
+    max-width: 100%;
+  }
 }
-
-
 
 .middleSection {
   display: flex;
   flex-flow: column wrap;
   padding-top: 72px;
-
   header {
     padding: 1em 0;
     position: fixed;
-    background: #ffcc80;
+    background: $brand-mainColor;
     top: 0;
     width: 81.1875em;
   }
-
   main {
-    background: #ab9093;
+    background: $brand-mainColor;
   }
 }
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: #0277bd;
+  background: $brand-mainColor;
   width: 18.875em;
-  // top: 0;
   right: 0;
-}
-
-.logo {
-  width: 280px;
-  height: 140px;
-  display: block;
-  margin: .80em auto;
-  max-width: 100%;
 }
