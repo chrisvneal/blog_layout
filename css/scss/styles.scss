@@ -1,6 +1,10 @@
 // Colors
 $sidebar-background-color: skyblue;
 $brand-mainColor: lightgray; // dark red
+
+body {
+  background: $brand-mainColor;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 16.875em 4fr 18.875em;

@@ -1,3 +1,7 @@
+body {
+  background: lightgray;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 16.875em 4fr 18.875em;
