@@ -1,6 +1,7 @@
 // Colors
 $sidebar-background-color: skyblue;
 $brand-mainColor: lightgray; // dark red
+$interface-mainColor: #fff;
 
 body {
   background: $brand-mainColor;
@@ -35,7 +36,7 @@ body {
   header {
     padding: 1em 0;
     position: fixed;
-    background: $brand-mainColor;
+    background: $interface-mainColor;
     top: 0;
     width: 81.1875em;
 
@@ -44,14 +45,14 @@ body {
     }
   }
   main {
-    background: $brand-mainColor;
+    background: $interface-mainColor;
   }
 }
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: $brand-mainColor;
+  background: $interface-mainColor;
   width: 18.875em;
   right: 0;
 }

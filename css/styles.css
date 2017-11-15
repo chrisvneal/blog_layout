@@ -33,7 +33,7 @@ body {
 .middleSection header {
   padding: 1em 0;
   position: fixed;
-  background: lightgray;
+  background: #fff;
   top: 0;
   width: 81.1875em;
 }
@@ -41,13 +41,13 @@ body {
   font-size: 2em;
 }
 .middleSection main {
-  background: lightgray;
+  background: #fff;
 }
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: lightgray;
+  background: #fff;
   width: 18.875em;
   right: 0;
 }
