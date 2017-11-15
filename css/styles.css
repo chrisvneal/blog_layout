@@ -7,15 +7,16 @@ body {
 .leftSection {
   background: skyblue;
 }
-.leftSection .sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
 
 .middleSection header,
 .middleSection main,
 aside {
   background: #fff;
+}
+
+.sidelinks {
+  list-style-type: none;
+  padding: 0;
 }
 
 /*--------------------- layout ------------------------

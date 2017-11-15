@@ -7,14 +7,15 @@ body {
 
 .leftSection {
   background: $sidebar-background-color;
-  .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-  }
 }
 
 .middleSection header,
 .middleSection main,
 aside {
   background: $interface-mainColor
+}
+
+.sidelinks {
+  list-style-type: none;
+  padding: 0;
 }
