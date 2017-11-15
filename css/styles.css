@@ -17,6 +17,9 @@
   display: flex;
   flex-flow: column wrap;
 }
+.middleSection header {
+  padding: 1em 0;
+}
 .middleSection main {
   background: #ab9093;
 }

@@ -25,6 +25,10 @@ $sidebar-background-color: skyblue;
   display: flex;
   flex-flow: column wrap;
 
+  header {
+    padding: 1em 0;
+  }
+
   main {
     background: #ab9093;
   }
