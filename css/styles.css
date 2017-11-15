@@ -1,26 +1,7 @@
-/*------------------ global styling ------------------
-#####################################################*/
 body {
   background: #fff;
 }
 
-.leftSection {
-  background: skyblue;
-}
-
-.middleSection header,
-.middleSection main,
-aside {
-  background: #fff;
-}
-
-.sidelinks {
-  list-style-type: none;
-  padding: 0;
-}
-
-/*--------------------- layout ------------------------
-#####################################################*/
 .wrapper {
   display: grid;
   grid-template-columns: 16.875em 4fr 18.875em;
@@ -30,12 +11,21 @@ aside {
 
 .leftSection {
   height: 100vh;
+  background: skyblue;
   position: fixed;
   width: 16.875em;
 }
 .leftSection .logo {
+  width: 280px;
   height: 140px;
+  display: block;
   margin: .80em auto;
+  max-width: 100%;
+}
+
+.middleSection main,
+aside {
+  background: #fff;
 }
 
 .middleSection {
