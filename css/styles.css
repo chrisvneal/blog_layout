@@ -16,9 +16,14 @@
 .middleSection {
   display: flex;
   flex-flow: column wrap;
+  padding-top: 72px;
 }
 .middleSection header {
   padding: 1em 0;
+  position: fixed;
+  background: #ffcc80;
+  top: 0;
+  width: 81.1875em;
 }
 .middleSection main {
   background: #ab9093;

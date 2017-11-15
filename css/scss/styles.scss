@@ -24,9 +24,14 @@ $sidebar-background-color: skyblue;
 .middleSection {
   display: flex;
   flex-flow: column wrap;
+  padding-top: 72px;
 
   header {
     padding: 1em 0;
+    position: fixed;
+    background: #ffcc80;
+    top: 0;
+    width: 81.1875em;
   }
 
   main {
