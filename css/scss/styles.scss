@@ -1,6 +1,6 @@
 // Colors
 $sidebar-background-color: skyblue;
-$brand-mainColor: #b71c1c; // dark red
+$brand-mainColor: lightgray; // dark red
 .wrapper {
   display: grid;
   grid-template-columns: 16.875em 4fr 18.875em;
@@ -26,13 +26,17 @@ $brand-mainColor: #b71c1c; // dark red
 .middleSection {
   display: flex;
   flex-flow: column wrap;
-  padding-top: 72px;
+  padding-top: 96px;
   header {
     padding: 1em 0;
     position: fixed;
     background: $brand-mainColor;
     top: 0;
     width: 81.1875em;
+
+    nav a {
+      font-size: 2em;
+    }
   }
   main {
     background: $brand-mainColor;

@@ -23,23 +23,26 @@
 .middleSection {
   display: flex;
   flex-flow: column wrap;
-  padding-top: 72px;
+  padding-top: 96px;
 }
 .middleSection header {
   padding: 1em 0;
   position: fixed;
-  background: #b71c1c;
+  background: lightgray;
   top: 0;
   width: 81.1875em;
 }
+.middleSection header nav a {
+  font-size: 2em;
+}
 .middleSection main {
-  background: #b71c1c;
+  background: lightgray;
 }
 
 .rightSection {
   height: 100vh;
   position: fixed;
-  background: #b71c1c;
+  background: lightgray;
   width: 18.875em;
   right: 0;
 }
