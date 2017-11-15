@@ -7,6 +7,10 @@ body {
 
 .leftSection {
   background: $sidebar-background-color;
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
 }
 
 .middleSection header,

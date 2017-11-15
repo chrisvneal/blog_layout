@@ -7,6 +7,10 @@ body {
 .leftSection {
   background: skyblue;
 }
+.leftSection .sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 .middleSection header,
 .middleSection main,
