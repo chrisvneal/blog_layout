@@ -21,5 +21,26 @@ aside {
 
 /*--------------------- layout ------------------------
 #####################################################*/
+.leftSection {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+}
+
+.middleSection {
+  margin-left: 15%;
+  flex: 4;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.rightSection {
+  flex: 1;
+}
 
 /*# sourceMappingURL=styles.css.map */
