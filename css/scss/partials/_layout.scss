@@ -9,16 +9,18 @@
   height: 100vh;
 }
 
-.middleSection {
-  margin-left: 15%;
-  flex: 4;
-}
-
 .flexWrapper {
   display: flex;
   flex-flow: row nowrap;
 }
 
+.middleSection {
+  margin-left: 15%;
+  flex: 4;
+}
+
+
 .rightSection {
   flex: 1;
+  padding-left: 15px;
 }
