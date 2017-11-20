@@ -40,11 +40,12 @@ li {
   background: coral;
 }
 
-.middleSection nav a {
-  font-size: 2rem;
-  color: inherit;
-
-  &:hover {
-    color: red;
+.middleSection {
+  nav a {
+    font-size: 2rem;
+    color: inherit;
+    &:hover {
+      color: red;
+    }
   }
 }
