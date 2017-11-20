@@ -2,6 +2,11 @@
 #####################################################*/
 body {
   background: #fff;
+  font-size: 16px;
+}
+
+li {
+  font-size: 1.2rem;
 }
 
 .leftSection {
@@ -35,7 +40,7 @@ body {
 
 .flexWrapper {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .middleSection {
