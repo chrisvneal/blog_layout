@@ -1,0 +1,38 @@
+/* general section styles */
+.sidelinks {
+  list-style-type: none;
+  padding: 0;
+}
+
+.middleSection header,
+.middleSection main,
+.rightSection {
+  background: $interface-mainColor;
+}
+
+
+/* middle section styles */
+.middleSection {
+  nav a {
+    font-size: 2rem;
+    color: inherit;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+
+/* left section styles */
+.leftSection {
+  background: $left_sidebar-backgroundColor;
+  color: $left_sidebar-textColor;
+
+  .logo ~ div {
+    margin-bottom: 4em;
+  }
+
+  a {
+    color: $left_sidebar-linkColor;
+  }
+}

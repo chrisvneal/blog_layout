@@ -6,10 +6,6 @@ body {
   font-size: 16px;
 }
 
-hr {
-  background-color: #2a2c2a;
-}
-
 p {
   font-size: 1.12rem;
   line-height: 1.7rem;
@@ -24,17 +20,23 @@ li {
   margin-bottom: 0.5rem;
 }
 
+hr {
+  background-color: #2a2c2a;
+}
+
+/* general section styles */
+.sidelinks {
+  list-style-type: none;
+  padding: 0;
+}
+
 .middleSection header,
 .middleSection main,
 .rightSection {
   background: #fff;
 }
 
-.sidelinks {
-  list-style-type: none;
-  padding: 0;
-}
-
+/* middle section styles */
 .middleSection nav a {
   font-size: 2rem;
   color: inherit;
