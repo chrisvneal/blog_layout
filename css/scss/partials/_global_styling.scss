@@ -22,7 +22,12 @@ li {
 }
 
 .leftSection {
-  background: $sidebar-background-color;
+  background: $left_sidebar-backgroundColor;
+  color: $left_sidebar-textColor;
+
+  a {
+    color: $left_sidebar-linkColor;
+  }
 }
 
 .middleSection header,

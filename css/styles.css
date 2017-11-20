@@ -21,7 +21,11 @@ li {
 }
 
 .leftSection {
-  background: skyblue;
+  background: #1b1c1b;
+  color: #3db03d;
+}
+.leftSection a {
+  color: pink;
 }
 
 .middleSection header,
