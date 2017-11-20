@@ -6,10 +6,6 @@ body {
   font-size: 16px;
 }
 
-hr {
-  background-color: #2a2c2a;
-}
-
 p {
   font-size: 1.12rem;
   line-height: 1.7rem;
@@ -19,9 +15,19 @@ h2 {
   font-size: 1.8rem;
 }
 
+hr {
+  margin-bottom: 1.5em;
+}
+
 li {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+}
+
+/* general section styles */
+.sidelinks {
+  list-style-type: none;
+  padding: 0;
 }
 
 .middleSection header,
@@ -30,11 +36,12 @@ li {
   background: #fff;
 }
 
-.sidelinks {
-  list-style-type: none;
-  padding: 0;
+.leftSection .logo ~ div,
+.rightSection aside div {
+  margin-bottom: 4em;
 }
 
+/* middle section styles */
 .middleSection nav a {
   font-size: 2rem;
   color: inherit;
@@ -48,11 +55,11 @@ li {
   background: #1b1c1b;
   color: #3db03d;
 }
-.leftSection .logo ~ div {
-  margin-bottom: 4em;
-}
 .leftSection a {
   color: pink;
+}
+.leftSection hr {
+  background-color: #2a2c2a;
 }
 
 /*--------------------- layout ------------------------
@@ -77,7 +84,6 @@ li {
 
 .rightSection {
   flex: 1;
-  padding-left: 15px;
   padding-top: 0.5rem;
 }
 
