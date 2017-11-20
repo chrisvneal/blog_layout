@@ -3,6 +3,22 @@
 
 body {
   background: #fff;
+  font-family: $font-stack;
+  font-size: 16px;
+}
+
+p {
+  font-size: 1.12rem;
+  line-height: 1.7rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .leftSection {
@@ -22,4 +38,13 @@ body {
 
 .new_sect {
   background: coral;
+}
+
+.middleSection nav a {
+  font-size: 2rem;
+  color: inherit;
+
+  &:hover {
+    color: red;
+  }
 }

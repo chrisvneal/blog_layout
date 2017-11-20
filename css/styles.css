@@ -2,6 +2,22 @@
 #####################################################*/
 body {
   background: #fff;
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-size: 1.12rem;
+  line-height: 1.7rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .leftSection {
@@ -23,6 +39,14 @@ body {
   background: coral;
 }
 
+.middleSection nav a {
+  font-size: 2rem;
+  color: inherit;
+}
+.middleSection nav a:hover {
+  color: red;
+}
+
 /*--------------------- layout ------------------------
 #####################################################*/
 .leftSection {
@@ -35,7 +59,7 @@ body {
 
 .flexWrapper {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .middleSection {
