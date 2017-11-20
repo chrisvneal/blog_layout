@@ -7,6 +7,10 @@ body {
   font-size: 16px;
 }
 
+hr {
+  background-color: lighten($left_sidebar-backgroundColor, 6%);
+}
+
 p {
   font-size: 1.12rem;
   line-height: 1.7rem;
@@ -52,7 +56,7 @@ li {
   color: $left_sidebar-textColor;
 
   .logo ~ div {
-    margin-bottom: 6em;
+    margin-bottom: 4em;
   }
 
   a {
