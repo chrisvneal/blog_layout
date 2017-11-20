@@ -21,14 +21,7 @@ li {
   margin-bottom: 0.5rem;
 }
 
-.leftSection {
-  background: $left_sidebar-backgroundColor;
-  color: $left_sidebar-textColor;
 
-  a {
-    color: $left_sidebar-linkColor;
-  }
-}
 
 .middleSection header,
 .middleSection main,
@@ -41,9 +34,6 @@ li {
   padding: 0;
 }
 
-.new_sect {
-  background: coral;
-}
 
 .middleSection {
   nav a {
@@ -52,5 +42,20 @@ li {
     &:hover {
       color: red;
     }
+  }
+}
+
+
+/* left section styles */
+.leftSection {
+  background: $left_sidebar-backgroundColor;
+  color: $left_sidebar-textColor;
+
+  .logo ~ div {
+    margin-bottom: 6em;
+  }
+
+  a {
+    color: $left_sidebar-linkColor;
   }
 }

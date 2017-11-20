@@ -20,14 +20,6 @@ li {
   margin-bottom: 0.5rem;
 }
 
-.leftSection {
-  background: #1b1c1b;
-  color: #3db03d;
-}
-.leftSection a {
-  color: pink;
-}
-
 .middleSection header,
 .middleSection main,
 .rightSection {
@@ -39,16 +31,24 @@ li {
   padding: 0;
 }
 
-.new_sect {
-  background: coral;
-}
-
 .middleSection nav a {
   font-size: 2rem;
   color: inherit;
 }
 .middleSection nav a:hover {
   color: red;
+}
+
+/* left section styles */
+.leftSection {
+  background: #1b1c1b;
+  color: #3db03d;
+}
+.leftSection .logo ~ div {
+  margin-bottom: 6em;
+}
+.leftSection a {
+  color: pink;
 }
 
 /*--------------------- layout ------------------------
