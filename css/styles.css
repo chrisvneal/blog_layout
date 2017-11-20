@@ -6,12 +6,17 @@ body {
   font-size: 16px;
 }
 
+p {
+  font-size: 1.12rem;
+  line-height: 1.7rem;
+}
+
 h2 {
   font-size: 1.8rem;
 }
 
 li {
-  font-size: 1.10rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
