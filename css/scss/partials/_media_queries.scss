@@ -3,9 +3,9 @@
 
 @media screen and (min-width: 1915px) {
   body {
-    background: #d6d6d6;
+    background: #d6d6d6; //TODO: Add better background-color to body
   }
-  .wrapper {
+  .site-wrapper {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
@@ -17,7 +17,7 @@
   }
   .leftSection {
     position: static;
-    background: green;
+    // background: green;
     height: 100vh;
   }
   .middleSection {
