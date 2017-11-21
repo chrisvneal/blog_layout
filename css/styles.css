@@ -33,6 +33,17 @@ hr {
   color: red;
 }
 
+/* images styling */
+.brand-logo {
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 1em 0 4em;
+}
+
 /* general section styles */
 ul.sidelinks {
   list-style-type: none;
