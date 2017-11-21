@@ -43,7 +43,7 @@ hr {
 }
 
 .logo {
-  margin: 1em 0 4em;  
+  @include logo-margins(); 
 }
 
 @import "section_styles";
