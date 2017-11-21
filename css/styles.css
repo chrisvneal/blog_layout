@@ -104,7 +104,10 @@ hr {
 ############################################################*/
 @media screen and (min-width: 1915px) {
   body {
-    background: black;
+    background: -moz-linear-gradient(-45deg, #e22f06 13%, #ea5507 59%, #f17432 90%, #f17432 90%);
+    background: -webkit-linear-gradient(-45deg, #e22f06 13%, #ea5507 59%, #f17432 90%, #f17432 90%);
+    background: linear-gradient(135deg, #e22f06 13%, #ea5507 59%, #f17432 90%, #f17432 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22f06', endColorstr='#f17432',GradientType=1 );
   }
 
   .site-wrapper {
