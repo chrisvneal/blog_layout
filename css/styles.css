@@ -1,7 +1,7 @@
 /*------------------ global styling ------------------
 #####################################################*/
 body {
-  background: #fff;
+  background: red;
   font-family: "Karla", Arial, sans-serif;
   font-size: 16px;
 }
@@ -68,6 +68,7 @@ li {
   position: fixed;
   top: 0;
   left: 0;
+  max-width: 285px;
   width: 15%;
   height: 100vh;
 }
@@ -85,6 +86,19 @@ li {
 .rightSection {
   flex: 1;
   padding-top: 0.5rem;
+}
+
+.wrapper {
+  max-width: 1915px;
+  border: 1px dashed crimson;
+}
+
+/*--------------------- media queries ------------------------
+############################################################*/
+@media screen and (min-width: 1915px) {
+  .wrapper {
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
