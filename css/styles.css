@@ -15,13 +15,13 @@ h2 {
   font-size: 1.8rem;
 }
 
-hr {
-  margin-bottom: 1.5em;
-}
-
 li {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+}
+
+hr {
+  margin-bottom: 1.5em;
 }
 
 /* general section styles */
@@ -80,19 +80,21 @@ li {
   left: 0;
   max-width: 285px;
   width: 15%;
-  height: 100vh;
 }
 
 .middleSection {
   margin-left: 15%;
   flex: 4;
-  height: 100vh;
   overflow: auto;
 }
 
 .rightSection {
   flex: 1;
   padding-top: 0.5rem;
+}
+
+.leftSection, .middleSection, .rightSection {
+  height: 100vh;
 }
 
 /*--------------------- media queries ------------------------

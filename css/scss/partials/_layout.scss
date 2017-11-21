@@ -17,13 +17,11 @@
   left: 0;
   max-width: 285px;
   width: 15%;
-  height: 100vh;
 }
 
 .middleSection {
   margin-left: 15%;
   flex: 4;
-  height: 100vh;
   overflow: auto;
 }
 
@@ -31,5 +29,10 @@
   flex: 1;
   padding-top: 0.5rem; // matches bootstrap link top padding
 }
+
+.leftSection, .middleSection, .rightSection {
+  height: 100vh;
+}
+
 
 @import "media_queries";
