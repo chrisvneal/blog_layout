@@ -10,22 +10,18 @@
     display: flex;
     flex-flow: row wrap;
   }
-  .flexWrapper {
-    display: flex;
-    flex-flow: row wrap;
-    flex: 2;
-  }
   .leftSection {
     position: static;
-    // background: green;
-    height: 100vh;
   }
-  .middleSection {
-    flex: 4;
-    margin: 0;
-  }
-  .rightSection {
-    flex: 1;
+  .flexWrapper {
+    flex: 2;
+    .middleSection {
+      flex: 4;
+      margin: 0;
+    }
+    .rightSection {
+      flex: 1;
+    }
   }
 }
 

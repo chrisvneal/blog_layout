@@ -66,6 +66,7 @@ li {
 #####################################################*/
 .site-wrapper {
   max-width: 1915px;
+  width: 100%;
 }
 
 .flexWrapper {
@@ -107,24 +108,18 @@ li {
     flex-flow: row wrap;
   }
 
-  .flexWrapper {
-    display: flex;
-    flex-flow: row wrap;
-    flex: 2;
-  }
-
   .leftSection {
     position: static;
-    background: green;
-    height: 100vh;
   }
 
-  .middleSection {
+  .flexWrapper {
+    flex: 2;
+  }
+  .flexWrapper .middleSection {
     flex: 4;
     margin: 0;
   }
-
-  .rightSection {
+  .flexWrapper .rightSection {
     flex: 1;
   }
 }
