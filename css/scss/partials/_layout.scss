@@ -1,6 +1,15 @@
 /*--------------------- layout ------------------------
 #####################################################*/
 
+.wrapper {
+  max-width: 1915px;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .leftSection {
   position: fixed;
   top: 0;
@@ -10,14 +19,11 @@
   height: 100vh;
 }
 
-.flexWrapper {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .middleSection {
   margin-left: 15%;
   flex: 4;
+  height: 100vh;
+  overflow: auto;
 }
 
 .rightSection {
@@ -25,44 +31,31 @@
   padding-top: 0.5rem; // matches bootstrap link top padding
 }
 
-.wrapper {
-  max-width: 1915px;
-  // border: 1px dashed crimson;
-}
 
 /*--------------------- media queries ------------------------
 ############################################################*/
-@media screen and (min-width: 1915px) { 
+
+@media screen and (min-width: 1915px) {
   .wrapper {
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;
   }
-
   .flexWrapper {
     display: flex;
-    // display: block;
     flex-flow: row wrap;
     flex: 2;
   }
-
-  .rightSection {
-    flex: 1;
-  }
-
   .leftSection {
     position: static;
     background: green;
-    top: 0;
-    // left: 0;
-    max-width: 285px;
-    // margin-left: .10%;
-    width: 15%;
     height: 100vh;
   }
-
   .middleSection {
-    flex: 3;
+    flex: 4;
     margin: 0;
+  }
+  .rightSection {
+    flex: 1;
   }
 }

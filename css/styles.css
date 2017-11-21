@@ -1,7 +1,7 @@
 /*------------------ global styling ------------------
 #####################################################*/
 body {
-  background: red;
+  background: #fff;
   font-family: "Karla", Arial, sans-serif;
   font-size: 16px;
 }
@@ -64,6 +64,15 @@ li {
 
 /*--------------------- layout ------------------------
 #####################################################*/
+.wrapper {
+  max-width: 1915px;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .leftSection {
   position: fixed;
   top: 0;
@@ -73,23 +82,16 @@ li {
   height: 100vh;
 }
 
-.flexWrapper {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .middleSection {
   margin-left: 15%;
   flex: 4;
+  height: 100vh;
+  overflow: auto;
 }
 
 .rightSection {
   flex: 1;
   padding-top: 0.5rem;
-}
-
-.wrapper {
-  max-width: 1915px;
 }
 
 /*--------------------- media queries ------------------------
@@ -107,22 +109,19 @@ li {
     flex: 2;
   }
 
-  .rightSection {
-    flex: 1;
-  }
-
   .leftSection {
     position: static;
     background: green;
-    top: 0;
-    max-width: 285px;
-    width: 15%;
     height: 100vh;
   }
 
   .middleSection {
-    flex: 3;
+    flex: 4;
     margin: 0;
+  }
+
+  .rightSection {
+    flex: 1;
   }
 }
 
