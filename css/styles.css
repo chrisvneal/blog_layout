@@ -97,6 +97,10 @@ li {
 /*--------------------- media queries ------------------------
 ############################################################*/
 @media screen and (min-width: 1915px) {
+  body {
+    background: #d6d6d6;
+  }
+
   .wrapper {
     margin: 0 auto;
     display: flex;
@@ -122,6 +126,11 @@ li {
 
   .rightSection {
     flex: 1;
+  }
+}
+@media screen and (max-width: 1257px) {
+  .leftSection {
+    background: red;
   }
 }
 
