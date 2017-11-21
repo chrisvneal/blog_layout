@@ -42,6 +42,9 @@ hr {
 }
 
 /* middle section styles */
+.middleSection {
+  background: #fff;
+}
 .middleSection nav a {
   font-size: 2rem;
   color: inherit;
@@ -101,7 +104,7 @@ hr {
 ############################################################*/
 @media screen and (min-width: 1915px) {
   body {
-    background: #d6d6d6;
+    background: black;
   }
 
   .site-wrapper {
