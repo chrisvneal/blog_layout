@@ -4,11 +4,11 @@ body {
   background: #fff;
   font-family: "Karla", Arial, sans-serif;
   font-size: 16px;
+  line-height: 1.7rem;
 }
 
 p {
   font-size: 1.12rem;
-  line-height: 1.7rem;
 }
 
 h2 {
@@ -24,13 +24,22 @@ hr {
   margin-bottom: 1.5em;
 }
 
+/* navigation styles */
+.middleSection nav a {
+  font-size: 2rem;
+  color: inherit;
+}
+.middleSection nav a:hover {
+  color: red;
+}
+
 /* general section styles */
-.sidelinks {
+ul.sidelinks {
   list-style-type: none;
   padding: 0;
 }
 
-.middleSection header,
+.middleSection, .middleSection header,
 .middleSection main,
 .rightSection {
   background: #fff;
@@ -42,17 +51,6 @@ hr {
 }
 
 /* middle section styles */
-.middleSection {
-  background: #fff;
-}
-.middleSection nav a {
-  font-size: 2rem;
-  color: inherit;
-}
-.middleSection nav a:hover {
-  color: red;
-}
-
 /* left section styles */
 .leftSection {
   background: #1b1c1b;

@@ -4,11 +4,11 @@ body {
   background: #fff;
   font-family: $font-stack;
   font-size: 16px;
+  line-height: 1.7rem;
 }
 
 p {
   font-size: 1.12rem;
-  line-height: 1.7rem;
 }
 
 h2 {
@@ -22,6 +22,16 @@ li {
 
 hr {
   margin-bottom: 1.5em;
+}
+
+/* navigation styles */
+
+.middleSection nav a {
+  font-size: 2rem;
+  color: inherit;
+  &:hover {
+    color: red;
+  }
 }
 
 @import "section_styles";
