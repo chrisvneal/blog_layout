@@ -31,3 +31,7 @@ ul.sidelinks {
     background-color: lighten($left_sidebar-backgroundColor, 6%);
   }
 }
+
+.rightSection [class^="aside-"] a {
+  color: $right_sidebar-linkColor;
+}
