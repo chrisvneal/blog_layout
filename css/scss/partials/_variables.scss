@@ -6,8 +6,9 @@ $interface-mainColor: #fff;
 
     // left sidebar colors
 $left_sidebar-backgroundColor: #1b1c1b;
-$left_sidebar-textColor: #3db03d;
-$left_sidebar-linkColor: pink;
+$left_sidebar-headerColor: #3db03d;
+$left_sidebar-textColor: lightgray;
+$left_sidebar-linkColor: #87cefa; // TODO: Change to a better gray color
 
 // Width, height, margin & padding values
 $interface-topPadding: 140px;

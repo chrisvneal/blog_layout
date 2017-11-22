@@ -26,6 +26,10 @@ hr {
 
 /* navigation styles */
 
+.leftSection a {
+  color: $left_sidebar-linkColor;
+}
+
 .middleSection nav a {
   font-size: 2rem;
   color: inherit;

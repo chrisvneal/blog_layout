@@ -25,6 +25,10 @@ hr {
 }
 
 /* navigation styles */
+.leftSection a {
+  color: #87cefa;
+}
+
 .middleSection nav a {
   font-size: 2rem;
   color: inherit;
@@ -65,10 +69,10 @@ ul.sidelinks {
 /* left section styles */
 .leftSection {
   background: #1b1c1b;
-  color: #3db03d;
+  color: lightgray;
 }
-.leftSection a {
-  color: pink;
+.leftSection h2 {
+  color: #3db03d;
 }
 .leftSection hr {
   background-color: #2a2c2a;
