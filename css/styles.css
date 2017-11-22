@@ -54,7 +54,8 @@ ul.sidelinks {
   padding: 0;
 }
 
-.middleSection, .middleSection header,
+.middleSection,
+.middleSection header,
 .middleSection main,
 .rightSection {
   background: #fff;
@@ -65,7 +66,6 @@ ul.sidelinks {
   margin-bottom: 4em;
 }
 
-/* middle section styles */
 /* left section styles */
 .leftSection {
   background: #1b1c1b;
@@ -117,11 +117,7 @@ ul.sidelinks {
 ############################################################*/
 @media screen and (min-width: 1915px) {
   body {
-    background: #ea6100;
-    background: -moz-linear-gradient(-45deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
-    background: -webkit-linear-gradient(-45deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
-    background: linear-gradient(135deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6100', endColorstr='#ec7e2b',GradientType=1 );
+    background: #dbdbdb;
   }
 
   .site-wrapper {

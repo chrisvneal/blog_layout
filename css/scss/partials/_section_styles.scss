@@ -1,10 +1,12 @@
 /* general section styles */
+
 ul.sidelinks {
   list-style-type: none;
   padding: 0;
 }
 
-.middleSection, .middleSection header,
+.middleSection,
+.middleSection header,
 .middleSection main,
 .rightSection {
   background: $interface-mainColor;
@@ -14,10 +16,6 @@ ul.sidelinks {
 .rightSection aside div {
   margin-bottom: 4em;
 }
-
-
-/* middle section styles */
-
 
 
 /* left section styles */
