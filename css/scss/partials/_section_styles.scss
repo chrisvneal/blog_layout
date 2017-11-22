@@ -5,6 +5,15 @@ ul.sidelinks {
   padding: 0;
 }
 
+.leftSection li, .rightSection li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.leftSection h2, .rightSection h2 {
+  margin-bottom: .65em;
+}
+
 .middleSection,
 .middleSection header,
 .middleSection main,
@@ -21,7 +30,7 @@ ul.sidelinks {
 /* left section styles */
 
 .leftSection {
-  // TODO: Add some padding to the left of the .leftSection
+  padding-left: 1.1em;
   background: $left_sidebar-backgroundColor;
   color: $left_sidebar-textColor;
   h2 {
@@ -32,6 +41,3 @@ ul.sidelinks {
   }
 }
 
-.rightSection [class^="aside-"] a {
-  color: $right_sidebar-linkColor;
-}
