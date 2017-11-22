@@ -15,16 +15,14 @@ h2 {
   font-size: 1.6rem;
 }
 
-li {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
 hr {
   margin-bottom: 1.5em;
 }
 
 /* navigation styles */
+a:hover {
+  text-decoration: none;
+}
 
 .leftSection a {
   color: $left_sidebar-linkColor;
@@ -35,6 +33,14 @@ hr {
   color: inherit;
   &:hover {
     color: red;
+  }
+}
+
+.rightSection [class^="aside-"] a {
+  color: $right_sidebar-linkColor;
+
+  &:hover {
+    color: $right_sidebar-linkColor-hovered;
   }
 }
 

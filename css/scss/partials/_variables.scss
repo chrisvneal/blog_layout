@@ -2,11 +2,12 @@
 $brand-mainColor: lightgray; // dark red
 // interface colors
 $interface-mainColor: #fff;
-// left sidebar colors
 $left_sidebar-backgroundColor: #1b1c1b;
 $left_sidebar-headerColor: #3db03d;
 $left_sidebar-textColor: lightgray;
-$right_sidebar-linkColor: darken($left_sidebar-linkColor, 15%);
+$left_sidebar-linkColor: $left_sidebar-textColor;
+$right_sidebar-linkColor: blue;
+$right_sidebar-linkColor-hovered: #19489a;
 // Width, height, margin & padding values
 $interface-topPadding: 140px;
 // Text
@@ -14,14 +15,6 @@ $font-main: "Karla";
 $font-stack: $font-main,
 Arial,
 sans-serif;
-@mixin body-backGradient {
-  background: #ea6100;
-  background: -moz-linear-gradient(-45deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
-  background: -webkit-linear-gradient(-45deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
-  background: linear-gradient(135deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ea6100', endColorstr='#ec7e2b', GradientType=1);
-}
-
 @mixin logo-margins($top:2em, $bottom: ($top + 1)) {
   margin: $top 0 $bottom;
 }
