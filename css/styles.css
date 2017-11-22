@@ -55,6 +55,11 @@ a:hover {
 }
 
 /* general section styles */
+header {
+  height: 100px;
+  max-height: 100px;
+}
+
 ul.sidelinks {
   list-style-type: none;
   padding: 0;
