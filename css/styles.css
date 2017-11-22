@@ -113,10 +113,11 @@ ul.sidelinks {
 ############################################################*/
 @media screen and (min-width: 1915px) {
   body {
-    background: -moz-linear-gradient(-45deg, #e22f06 13%, #ea5507 59%, #f17432 90%, #f17432 90%);
-    background: -webkit-linear-gradient(-45deg, #e22f06 13%, #ea5507 59%, #f17432 90%, #f17432 90%);
-    background: linear-gradient(135deg, #e22f06 13%, #ea5507 59%, #f17432 90%, #f17432 90%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22f06', endColorstr='#f17432',GradientType=1 );
+    background: #ea6100;
+    background: -moz-linear-gradient(-45deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
+    background: -webkit-linear-gradient(-45deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
+    background: linear-gradient(135deg, #ea6100 13%, #ea6100 38%, #ec7e2b 74%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6100', endColorstr='#ec7e2b',GradientType=1 );
   }
 
   .site-wrapper {
