@@ -56,4 +56,9 @@ a:hover {
   @include logo-margins(); 
 }
 
+.cardib img {
+  width: 100%;
+  margin: 3em 0;
+}
+
 @import "section_styles";

@@ -42,6 +42,10 @@ a:hover {
 .logo {
   margin: 2em 0 3em; }
 
+.cardib img {
+  width: 100%;
+  margin: 3em 0; }
+
 /* general section styles */
 header {
   height: 100px;
@@ -73,6 +77,9 @@ ul.sidelinks {
   color: #3db03d; }
 .leftSection hr {
   background-color: #2a2c2a; }
+
+.main-content .row h3 {
+  color: #d5741f; }
 
 /*--------------------- layout ------------------------
 #####################################################*/
