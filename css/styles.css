@@ -4,168 +4,128 @@ body {
   background: #fff;
   font-family: "Karla", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.7rem;
-}
+  line-height: 1.7rem; }
 
 p {
-  font-size: 1.12rem;
-}
+  font-size: 1.12rem; }
 
 h2 {
-  font-size: 1.6rem;
-}
+  font-size: 1.6rem; }
 
 hr {
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
 
 /* navigation styles */
 a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .leftSection a {
-  color: lightgray;
-}
+  color: lightgray; }
 
 .middleSection nav a {
   font-size: 2rem;
-  color: inherit;
-}
+  color: inherit; }
 .middleSection nav a:hover {
-  color: red;
-}
+  color: red; }
 
 .rightSection [class^="aside-"] a {
-  color: blue;
-}
+  color: blue; }
 .rightSection [class^="aside-"] a:hover {
-  color: #19489a;
-}
+  color: #19489a; }
 
 /* images styling */
 .brand-logo {
   height: 100px;
   display: block;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .logo {
-  margin: 2em 0 3em;
-}
+  margin: 2em 0 3em; }
 
 /* general section styles */
 header {
   height: 100px;
-  max-height: 100px;
-}
+  max-height: 100px; }
 
 ul.sidelinks {
   list-style-type: none;
-  padding: 0;
-}
+  padding: 0; }
 
 .leftSection li, .rightSection li {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
 
 .leftSection h2, .rightSection h2 {
-  margin-bottom: .65em;
-}
+  margin-bottom: .65em; }
 
-.middleSection,
-.middleSection header,
-.middleSection main,
-.rightSection {
-  background: #fff;
-}
+.middleSection, .middleSection header, .middleSection main, .rightSection {
+  background: #fff; }
 
-.leftSection .logo ~ div,
-.rightSection aside div {
-  margin-bottom: 4em;
-}
+.leftSection .logo ~ div, .rightSection aside div {
+  margin-bottom: 4em; }
 
 /* left section styles */
 .leftSection {
   padding-left: 1.1em;
   background: #1b1c1b;
-  color: lightgray;
-}
+  color: lightgray; }
 .leftSection h2 {
-  color: #3db03d;
-}
+  color: #3db03d; }
 .leftSection hr {
-  background-color: #2a2c2a;
-}
+  background-color: #2a2c2a; }
 
 /*--------------------- layout ------------------------
 #####################################################*/
 .site-wrapper {
   max-width: 1915px;
-  width: 100%;
-}
+  width: 100%; }
 
 .flexWrapper {
   display: flex;
-  flex-flow: row wrap;
-}
+  flex-flow: row wrap; }
 
 .leftSection {
   position: fixed;
   top: 0;
   left: 0;
   max-width: 285px;
-  width: 15%;
-}
+  width: 15%; }
 
 .middleSection {
   margin-left: 15%;
   flex: 4;
-  overflow: auto;
-}
+  overflow: auto; }
 
 .rightSection {
   flex: 1;
-  padding-top: 0.5rem;
-}
+  padding-top: 0.5rem; }
 
 .leftSection, .middleSection, .rightSection {
-  height: 100vh;
-}
+  height: 100vh; }
 
 /*--------------------- media queries ------------------------
 ############################################################*/
 @media screen and (min-width: 1915px) {
   body {
-    background: #dbdbdb;
-  }
+    background: #1B1C1B; }
 
   .site-wrapper {
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap;
-  }
+    flex-flow: row wrap; }
 
   .leftSection {
-    position: static;
-  }
+    position: static; }
 
   .flexWrapper {
-    flex: 2;
-  }
+    flex: 2; }
   .flexWrapper .middleSection {
     flex: 4;
-    margin: 0;
-  }
+    margin: 0; }
   .flexWrapper .rightSection {
-    flex: 1;
-  }
-}
+    flex: 1; } }
 @media screen and (max-width: 1257px) {
   .leftSection {
-    background: red;
-  }
-}
+    background: red; } }
 
 /*# sourceMappingURL=styles.css.map */
