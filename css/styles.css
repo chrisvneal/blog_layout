@@ -26,7 +26,7 @@ a:hover {
 }
 
 .leftSection a {
-  color: lightgray;
+  color: #f0f1f3;
 }
 
 .middleSection nav a {
@@ -94,7 +94,7 @@ ul.sidelinks {
 .leftSection {
   padding-left: 1.1em;
   background: #1b1c1b;
-  color: lightgray;
+  color: #f0f1f3;
 }
 .leftSection h2 {
   color: #3db03d;

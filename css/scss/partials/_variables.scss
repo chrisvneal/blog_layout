@@ -1,18 +1,19 @@
 /* Colors */
 
 $brand-mainColor: lightgray; // dark red
+$lightgray: #f0f1f3;
 
 // interface colors
 
 $interface-mainColor: #fff;
 $left_sidebar-backgroundColor: #1b1c1b;
 $left_sidebar-headerColor: #3db03d;
-$left_sidebar-textColor: lightgray;
-$left_sidebar-linkColor: $left_sidebar-textColor;
+$left_sidebar-textColor: $lightgray;
+$left_sidebar-linkColor: $lightgray;
 
 $right_sidebar-linkColor: #EC7E2B;
 $right_sidebar-linkColor-hovered: #19489a;
-$right_sidebar-backgroundColor: #f0f1f3;
+$right_sidebar-backgroundColor: $lightgray;
 
 // Width, height, margin & padding values
 
