@@ -2,21 +2,23 @@
 
 $brand-mainColor: lightgray; // dark red
 
-/* interface colors */
+// interface colors
 
 $interface-mainColor: #fff;
 $left_sidebar-backgroundColor: #1b1c1b;
 $left_sidebar-headerColor: #3db03d;
 $left_sidebar-textColor: lightgray;
 $left_sidebar-linkColor: $left_sidebar-textColor;
+
 $right_sidebar-linkColor: #EC7E2B;
 $right_sidebar-linkColor-hovered: #19489a;
+$right_sidebar-backgroundColor: #f0f1f3;
 
-/* Width, height, margin & padding values */
+// Width, height, margin & padding values
 
 $interface-topPadding: 140px;
 
-/* Text */
+// Text
 
 $font-main: "Libre Franklin";
 $font-stack: $font-main,

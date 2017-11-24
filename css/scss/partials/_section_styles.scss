@@ -20,9 +20,12 @@ ul.sidelinks {
 
 .middleSection,
 .middleSection header,
-.middleSection main,
-.rightSection {
+.middleSection main {
   background: $interface-mainColor;
+}
+
+.rightSection {
+  background: $right_sidebar-backgroundColor;
 }
 
 .leftSection .logo~div,

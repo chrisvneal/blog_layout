@@ -1,7 +1,4 @@
 /* Colors */
-/* interface colors */
-/* Width, height, margin & padding values */
-/* Text */
 /*------------------ global styling ------------------
 #####################################################*/
 body {
@@ -80,9 +77,12 @@ ul.sidelinks {
 
 .middleSection,
 .middleSection header,
-.middleSection main,
-.rightSection {
+.middleSection main {
   background: #fff;
+}
+
+.rightSection {
+  background: #f0f1f3;
 }
 
 .leftSection .logo ~ div,
