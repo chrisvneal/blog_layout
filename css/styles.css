@@ -51,6 +51,10 @@ a:hover {
   color: #b33b24;
 }
 
+.sidelinks a {
+  display: block;
+}
+
 /* images styling */
 .brand-logo {
   height: 100px;
