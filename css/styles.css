@@ -87,6 +87,10 @@ a:hover {
   background: #fff;
 }
 
+.middleSection {
+  padding: 3em 0;
+}
+
 .rightSection {
   background: #f0f1f3;
 }
