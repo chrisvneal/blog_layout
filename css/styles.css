@@ -22,6 +22,14 @@ hr {
 }
 
 /* navigation styles */
+ul.sidelinks {
+  list-style-type: none;
+  padding: 0;
+}
+ul.sidelinks a {
+  display: block;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -51,10 +59,6 @@ a:hover {
   color: #b33b24;
 }
 
-.sidelinks a {
-  display: block;
-}
-
 /* images styling */
 .brand-logo {
   height: 100px;
@@ -72,17 +76,14 @@ header {
   max-height: 100px;
 }
 
-ul.sidelinks {
-  list-style-type: none;
-  padding: 0;
-}
-
-.leftSection li, .rightSection li {
+.leftSection li,
+.rightSection li {
   font-size: 1.15rem;
   margin-bottom: 1rem;
 }
 
-.leftSection h2, .rightSection h2 {
+.leftSection h2,
+.rightSection h2 {
   margin-bottom: .65em;
 }
 
@@ -145,7 +146,9 @@ ul.sidelinks {
   padding-top: 0.5rem;
 }
 
-.leftSection, .middleSection, .rightSection {
+.leftSection,
+.middleSection,
+.rightSection {
   height: 100vh;
 }
 

@@ -1,20 +1,18 @@
 /* general section styles */
+
 header {
   height: 100px;
   max-height: 100px;
 }
 
-ul.sidelinks {
-  list-style-type: none;
-  padding: 0;
-}
-
-.leftSection li, .rightSection li {
+.leftSection li,
+.rightSection li {
   font-size: 1.15rem;
   margin-bottom: 1rem;
 }
 
-.leftSection h2, .rightSection h2 {
+.leftSection h2,
+.rightSection h2 {
   margin-bottom: .65em;
 }
 
@@ -47,4 +45,3 @@ ul.sidelinks {
     background-color: lighten($left_sidebar-backgroundColor, 6%);
   }
 }
-

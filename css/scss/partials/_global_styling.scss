@@ -1,5 +1,6 @@
 /*------------------ global styling ------------------
 #####################################################*/
+
 body {
   background: #fff;
   font-family: $font-stack;
@@ -20,7 +21,17 @@ hr {
   margin-bottom: 1.5em;
 }
 
+
 /* navigation styles */
+
+ul.sidelinks {
+  list-style-type: none;
+  padding: 0;
+  a {
+    display: block;
+  }
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -42,7 +53,6 @@ a:hover {
 
 .rightSection [class^="aside-"] a {
   color: $right_sidebar-linkColor;
-
   &:hover {
     color: $right_sidebar-linkColor-hovered;
   }
@@ -51,9 +61,6 @@ a:hover {
   }
 }
 
-.sidelinks a {
-  display: block;
-}
 
 /* images styling */
 
@@ -64,7 +71,7 @@ a:hover {
 }
 
 .logo {
-  @include logo-margins(); 
+  @include logo-margins();
 }
 
 @import "section_styles";
