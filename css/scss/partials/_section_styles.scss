@@ -1,10 +1,5 @@
 /* general section styles */
 
-header {
-  height: 100px;
-  max-height: 100px;
-}
-
 .leftSection li,
 .rightSection li {
   font-size: 1.15rem;
@@ -17,7 +12,6 @@ header {
 }
 
 .middleSection,
-.middleSection header,
 .middleSection main {
   background: $interface-mainColor;
 }
