@@ -21,17 +21,6 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.copyright {
-  color: #f0f1f3;
-  font-size: 0.85em;
-  letter-spacing: .10em;
-  background: #EC7E2B;
-  border-radius: 2px;
-  padding: 0.2em 0;
-  margin-top: 10em;
-  cursor: pointer;
-}
-
 /* navigation styles */
 ul.sidelinks {
   list-style-type: none;
@@ -105,10 +94,6 @@ a:hover {
 .leftSection .logo ~ div,
 .rightSection aside div {
   margin-bottom: 4em;
-}
-
-.rightSection footer {
-  text-align: center;
 }
 
 /* left section styles */
