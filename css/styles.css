@@ -102,6 +102,9 @@ a:hover {
   background: #1b1c1b;
   color: #f0f1f3;
 }
+.leftSection header {
+  margin: 0;
+}
 .leftSection h2 {
   color: #3db03d;
 }

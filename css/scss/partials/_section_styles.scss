@@ -32,6 +32,9 @@
   padding-left: 1.1em;
   background: $left_sidebar-backgroundColor;
   color: $left_sidebar-textColor;
+  header {
+    margin: 0;
+  }
   h2 {
     color: $left_sidebar-headerColor;
   }
