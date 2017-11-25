@@ -6,7 +6,7 @@ body {
   font-family: "Libre Franklin", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7rem;
-  color: #000;
+  color: #464646;
 }
 
 p {
@@ -19,6 +19,17 @@ h2 {
 
 hr {
   margin-bottom: 1.5em;
+}
+
+.copyright {
+  color: #f0f1f3;
+  font-size: 0.85em;
+  letter-spacing: .10em;
+  background: #EC7E2B;
+  border-radius: 2px;
+  padding: 0.2em 0;
+  margin-top: 10em;
+  cursor: pointer;
 }
 
 /* navigation styles */
@@ -94,6 +105,10 @@ a:hover {
 .leftSection .logo ~ div,
 .rightSection aside div {
   margin-bottom: 4em;
+}
+
+.rightSection footer {
+  text-align: center;
 }
 
 /* left section styles */

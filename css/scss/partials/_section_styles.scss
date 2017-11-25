@@ -25,6 +25,10 @@
   margin-bottom: 4em;
 }
 
+.rightSection footer {
+  text-align: center;
+}
+
 
 /* left section styles */
 
@@ -42,3 +46,4 @@
     background-color: lighten($left_sidebar-backgroundColor, 6%);
   }
 }
+
