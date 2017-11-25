@@ -6,6 +6,7 @@ body {
   font-family: "Libre Franklin", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7rem;
+  color: #000;
 }
 
 p {
@@ -28,6 +29,9 @@ a:hover {
 .leftSection a {
   color: #f0f1f3;
 }
+.leftSection a:hover {
+  color: #80d380;
+}
 
 .middleSection nav a {
   font-size: 2rem;
@@ -41,7 +45,10 @@ a:hover {
   color: #EC7E2B;
 }
 .rightSection [class^="aside-"] a:hover {
-  color: #19489a;
+  color: #b33b24;
+}
+.rightSection [class^="aside-"] a:visited {
+  color: #b33b24;
 }
 
 /* images styling */

@@ -5,6 +5,7 @@ body {
   font-family: $font-stack;
   font-size: 16px;
   line-height: 1.7rem;
+  color: $body-textColor;
 }
 
 p {
@@ -26,6 +27,9 @@ a:hover {
 
 .leftSection a {
   color: $left_sidebar-linkColor;
+  &:hover {
+    color: $left_sidebar-linkColor-hovered;
+  }
 }
 
 .middleSection nav a {
@@ -40,6 +44,9 @@ a:hover {
   color: $right_sidebar-linkColor;
 
   &:hover {
+    color: $right_sidebar-linkColor-hovered;
+  }
+  &:visited {
     color: $right_sidebar-linkColor-hovered;
   }
 }

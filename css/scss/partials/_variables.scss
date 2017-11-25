@@ -5,14 +5,18 @@ $lightgray: #f0f1f3;
 
 // interface colors
 
+$body-textColor: #000;
+
 $interface-mainColor: #fff;
 $left_sidebar-backgroundColor: #1b1c1b;
 $left_sidebar-headerColor: #3db03d;
 $left_sidebar-textColor: $lightgray;
 $left_sidebar-linkColor: $lightgray;
+$left_sidebar-linkColor-hovered: lighten($left_sidebar-headerColor, 20%);
+
 
 $right_sidebar-linkColor: #EC7E2B;
-$right_sidebar-linkColor-hovered: #19489a;
+$right_sidebar-linkColor-hovered: #b33b24;
 $right_sidebar-backgroundColor: $lightgray;
 
 // Width, height, margin & padding values
