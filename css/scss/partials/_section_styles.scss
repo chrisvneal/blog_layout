@@ -1,10 +1,5 @@
 /* general section styles */
 
-header {
-  height: 100px;
-  max-height: 100px;
-}
-
 .leftSection li,
 .rightSection li {
   font-size: 1.15rem;
@@ -17,9 +12,12 @@ header {
 }
 
 .middleSection,
-.middleSection header,
 .middleSection main {
   background: $interface-mainColor;
+}
+
+.middleSection {
+  padding: 3em 0;
 }
 
 .rightSection {
@@ -31,13 +29,15 @@ header {
   margin-bottom: 4em;
 }
 
-
 /* left section styles */
 
 .leftSection {
   padding-left: 1.1em;
   background: $left_sidebar-backgroundColor;
   color: $left_sidebar-textColor;
+  header {
+    margin: 0;
+  }
   h2 {
     color: $left_sidebar-headerColor;
   }
@@ -45,3 +45,4 @@ header {
     background-color: lighten($left_sidebar-backgroundColor, 6%);
   }
 }
+

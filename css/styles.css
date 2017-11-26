@@ -6,7 +6,7 @@ body {
   font-family: "Libre Franklin", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7rem;
-  color: #000;
+  color: #464646;
 }
 
 p {
@@ -71,11 +71,6 @@ a:hover {
 }
 
 /* general section styles */
-header {
-  height: 100px;
-  max-height: 100px;
-}
-
 .leftSection li,
 .rightSection li {
   font-size: 1.15rem;
@@ -88,9 +83,12 @@ header {
 }
 
 .middleSection,
-.middleSection header,
 .middleSection main {
   background: #fff;
+}
+
+.middleSection {
+  padding: 3em 0;
 }
 
 .rightSection {
@@ -107,6 +105,9 @@ header {
   padding-left: 1.1em;
   background: #1b1c1b;
   color: #f0f1f3;
+}
+.leftSection header {
+  margin: 0;
 }
 .leftSection h2 {
   color: #3db03d;
