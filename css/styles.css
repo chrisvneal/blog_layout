@@ -13,6 +13,10 @@ p {
   font-size: 1rem;
 }
 
+.middleSection section p:last-child {
+  margin-bottom: 0;
+}
+
 h2 {
   font-size: 1.6rem;
 }
@@ -114,7 +118,15 @@ a:hover {
 }
 
 .intro-developer {
-  background: red;
+  background: #97bad5;
+}
+
+.latestproject {
+  background: #93dfb8;
+}
+
+.currentlearning {
+  background: #e1e68a;
 }
 
 /* right section styles */

@@ -13,6 +13,10 @@ p {
   font-size: 1rem;
 }
 
+.middleSection section p:last-child {
+  margin-bottom: 0;
+}
+
 h2 {
   font-size: 1.6rem;
 }
