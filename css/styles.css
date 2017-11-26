@@ -72,7 +72,8 @@ a:hover {
 
 .cardib img {
   width: 100%;
-  margin: 3em 0; }
+  margin: 3em 0;
+}
 
 /* general section styles */
 .leftSection li,
@@ -89,10 +90,6 @@ a:hover {
 .middleSection,
 .middleSection main {
   background: #fff;
-}
-
-.middleSection {
-  padding: 3em 0;
 }
 
 .rightSection {
@@ -121,7 +118,13 @@ a:hover {
 }
 
 .main-content .row h3 {
-  color: #d5741f; }
+  color: #d5741f;
+}
+
+/***************** Middle Section Styles *****************/
+.intro-developer {
+  background: red;
+}
 
 /*--------------------- layout ------------------------
 #####################################################*/

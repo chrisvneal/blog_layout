@@ -16,9 +16,6 @@
   background: $interface-mainColor;
 }
 
-.middleSection {
-  padding: 3em 0;
-}
 
 .rightSection {
   background: $right_sidebar-backgroundColor;
@@ -51,5 +48,10 @@
   h3 {
     color: rgb(213, 116, 31);
   }
+}
+
+/***************** Middle Section Styles *****************/
+.intro-developer {
+  background: red;
 }
 
