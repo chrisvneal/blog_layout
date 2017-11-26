@@ -112,6 +112,9 @@ a:hover {
 .middleSection {
   background: #fff;
 }
+.middleSection section {
+  padding: 4em 1em;
+}
 
 .intro-developer {
   background: #97bad5;

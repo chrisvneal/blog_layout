@@ -39,6 +39,10 @@
 
 .middleSection {
   background: $interface-mainColor;
+
+  section {
+    padding: 4em 1em;
+  }
 }
 
 .intro-developer {
