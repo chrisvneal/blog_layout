@@ -1,28 +1,27 @@
 /* general section styles */
-header {
-  height: 100px;
-  max-height: 100px;
-}
 
-ul.sidelinks {
-  list-style-type: none;
-  padding: 0;
-}
-
-.leftSection li, .rightSection li {
-  font-size: 1.2rem;
+.leftSection li,
+.rightSection li {
+  font-size: 1.15rem;
   margin-bottom: 1rem;
 }
 
-.leftSection h2, .rightSection h2 {
+.leftSection h2,
+.rightSection h2 {
   margin-bottom: .65em;
 }
 
 .middleSection,
-.middleSection header,
-.middleSection main,
-.rightSection {
+.middleSection main {
   background: $interface-mainColor;
+}
+
+.middleSection {
+  padding: 3em 0;
+}
+
+.rightSection {
+  background: $right_sidebar-backgroundColor;
 }
 
 .leftSection .logo~div,
@@ -30,13 +29,15 @@ ul.sidelinks {
   margin-bottom: 4em;
 }
 
-
 /* left section styles */
 
 .leftSection {
   padding-left: 1.1em;
   background: $left_sidebar-backgroundColor;
   color: $left_sidebar-textColor;
+  header {
+    margin: 0;
+  }
   h2 {
     color: $left_sidebar-headerColor;
   }

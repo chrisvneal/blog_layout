@@ -2,7 +2,7 @@
 #####################################################*/
 
 .site-wrapper {
-  max-width: 1915px;
+  max-width: 1700px;
   width: 100%;
 }
 
@@ -30,9 +30,10 @@
   padding-top: 0.5rem; // matches bootstrap link top padding
 }
 
-.leftSection, .middleSection, .rightSection {
+.leftSection,
+.middleSection,
+.rightSection {
   height: 100vh;
 }
-
 
 @import "media_queries";

@@ -1,14 +1,16 @@
 /*------------------ global styling ------------------
 #####################################################*/
+
 body {
   background: #fff;
   font-family: $font-stack;
   font-size: 16px;
   line-height: 1.7rem;
+  color: $body-textColor;
 }
 
 p {
-  font-size: 1.12rem;
+  font-size: 1rem;
 }
 
 h2 {
@@ -19,13 +21,26 @@ hr {
   margin-bottom: 1.5em;
 }
 
+
 /* navigation styles */
+
+ul.sidelinks {
+  list-style-type: none;
+  padding: 0;
+  a {
+    display: block;
+  }
+}
+
 a:hover {
   text-decoration: none;
 }
 
 .leftSection a {
   color: $left_sidebar-linkColor;
+  &:hover {
+    color: $left_sidebar-linkColor-hovered;
+  }
 }
 
 .middleSection nav a {
@@ -38,11 +53,14 @@ a:hover {
 
 .rightSection [class^="aside-"] a {
   color: $right_sidebar-linkColor;
-
   &:hover {
     color: $right_sidebar-linkColor-hovered;
   }
+  &:visited {
+    color: $right_sidebar-linkColor-hovered;
+  }
 }
+
 
 /* images styling */
 
@@ -53,7 +71,7 @@ a:hover {
 }
 
 .logo {
-  @include logo-margins(); 
+  @include logo-margins();
 }
 
 .cardib img {

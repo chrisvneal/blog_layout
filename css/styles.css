@@ -1,82 +1,124 @@
+/* Colors */
 /*------------------ global styling ------------------
 #####################################################*/
 body {
   background: #fff;
-  font-family: "Karla", Arial, sans-serif;
+  font-family: "Libre Franklin", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.7rem; }
+  line-height: 1.7rem;
+  color: #464646;
+}
 
 p {
-  font-size: 1.12rem; }
+  font-size: 1rem;
+}
 
 h2 {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+}
 
 hr {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
 /* navigation styles */
+ul.sidelinks {
+  list-style-type: none;
+  padding: 0;
+}
+ul.sidelinks a {
+  display: block;
+}
+
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .leftSection a {
-  color: lightgray; }
+  color: #f0f1f3;
+}
+.leftSection a:hover {
+  color: #80d380;
+}
 
 .middleSection nav a {
   font-size: 2rem;
-  color: inherit; }
+  color: inherit;
+}
 .middleSection nav a:hover {
-  color: red; }
+  color: red;
+}
 
 .rightSection [class^="aside-"] a {
-  color: #EC7E2B; }
+  color: #EC7E2B;
+}
 .rightSection [class^="aside-"] a:hover {
-  color: #19489a; }
+  color: #b33b24;
+}
+.rightSection [class^="aside-"] a:visited {
+  color: #b33b24;
+}
 
 /* images styling */
 .brand-logo {
   height: 100px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .logo {
-  margin: 2em 0 3em; }
+  margin: 2em 0 3em;
+}
 
 .cardib img {
   width: 100%;
   margin: 3em 0; }
 
 /* general section styles */
-header {
-  height: 100px;
-  max-height: 100px; }
+.leftSection li,
+.rightSection li {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
 
-ul.sidelinks {
-  list-style-type: none;
-  padding: 0; }
+.leftSection h2,
+.rightSection h2 {
+  margin-bottom: .65em;
+}
 
-.leftSection li, .rightSection li {
-  font-size: 1.2rem;
-  margin-bottom: 1rem; }
+.middleSection,
+.middleSection main {
+  background: #fff;
+}
 
-.leftSection h2, .rightSection h2 {
-  margin-bottom: .65em; }
+.middleSection {
+  padding: 3em 0;
+}
 
-.middleSection, .middleSection header, .middleSection main, .rightSection {
-  background: #fff; }
+.rightSection {
+  background: #f0f1f3;
+}
 
-.leftSection .logo ~ div, .rightSection aside div {
-  margin-bottom: 4em; }
+.leftSection .logo ~ div,
+.rightSection aside div {
+  margin-bottom: 4em;
+}
 
 /* left section styles */
 .leftSection {
   padding-left: 1.1em;
   background: #1b1c1b;
-  color: lightgray; }
+  color: #f0f1f3;
+}
+.leftSection header {
+  margin: 0;
+}
 .leftSection h2 {
-  color: #3db03d; }
+  color: #3db03d;
+}
 .leftSection hr {
-  background-color: #2a2c2a; }
+  background-color: #2a2c2a;
+}
 
 .main-content .row h3 {
   color: #d5741f; }
@@ -84,55 +126,72 @@ ul.sidelinks {
 /*--------------------- layout ------------------------
 #####################################################*/
 .site-wrapper {
-  max-width: 1915px;
-  width: 100%; }
+  max-width: 1700px;
+  width: 100%;
+}
 
 .flexWrapper {
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+}
 
 .leftSection {
   position: fixed;
   top: 0;
   left: 0;
   max-width: 285px;
-  width: 15%; }
+  width: 15%;
+}
 
 .middleSection {
   margin-left: 15%;
   flex: 4;
-  overflow: auto; }
+  overflow: auto;
+}
 
 .rightSection {
   flex: 1;
-  padding-top: 0.5rem; }
+  padding-top: 0.5rem;
+}
 
-.leftSection, .middleSection, .rightSection {
-  height: 100vh; }
+.leftSection,
+.middleSection,
+.rightSection {
+  height: 100vh;
+}
 
 /*--------------------- media queries ------------------------
 ############################################################*/
-@media screen and (min-width: 1915px) {
+@media screen and (min-width: 1700px) {
   body {
-    background: #1B1C1B; }
+    background: #1B1C1B;
+  }
 
   .site-wrapper {
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+  }
 
   .leftSection {
-    position: static; }
+    position: static;
+  }
 
   .flexWrapper {
-    flex: 2; }
+    flex: 2;
+  }
   .flexWrapper .middleSection {
     flex: 4;
-    margin: 0; }
+    margin: 0;
+  }
   .flexWrapper .rightSection {
-    flex: 1; } }
+    flex: 1;
+  }
+}
 @media screen and (max-width: 1257px) {
   .leftSection {
-    background: red; } }
+    background: red;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
