@@ -87,15 +87,6 @@ a:hover {
   margin-bottom: .65em;
 }
 
-.middleSection,
-.middleSection main {
-  background: #fff;
-}
-
-.rightSection {
-  background: #f0f1f3;
-}
-
 .leftSection .logo ~ div,
 .rightSection aside div {
   margin-bottom: 4em;
@@ -117,13 +108,18 @@ a:hover {
   background-color: #2a2c2a;
 }
 
-.main-content .row h3 {
-  color: #d5741f;
+/* middle section styles */
+.middleSection {
+  background: #fff;
 }
 
-/***************** Middle Section Styles *****************/
 .intro-developer {
   background: red;
+}
+
+/* right section styles */
+.rightSection {
+  background: #f0f1f3;
 }
 
 /*--------------------- layout ------------------------

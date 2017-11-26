@@ -11,20 +11,11 @@
   margin-bottom: .65em;
 }
 
-.middleSection,
-.middleSection main {
-  background: $interface-mainColor;
-}
-
-
-.rightSection {
-  background: $right_sidebar-backgroundColor;
-}
-
 .leftSection .logo~div,
 .rightSection aside div {
   margin-bottom: 4em;
 }
+
 
 /* left section styles */
 
@@ -43,15 +34,20 @@
   }
 }
 
-.main-content .row {
-  // border: 1px solid crimson;
-  h3 {
-    color: rgb(213, 116, 31);
-  }
+
+/* middle section styles */
+
+.middleSection {
+  background: $interface-mainColor;
 }
 
-/***************** Middle Section Styles *****************/
 .intro-developer {
   background: red;
 }
 
+
+/* right section styles */
+
+.rightSection {
+  background: $right_sidebar-backgroundColor;
+}
