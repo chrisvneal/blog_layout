@@ -38,10 +38,18 @@
 /* middle section styles */
 
 .middleSection {
-  background: $interface-mainColor;
+  background: $interface-mainColor; /* FIXME: container and row padding*/
+
+  .row {
+    margin: 2em 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
   section {
-    padding: 4em 1em;
+    padding: 4em 0;
   }
 }
 

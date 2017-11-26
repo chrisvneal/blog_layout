@@ -111,9 +111,16 @@ a:hover {
 /* middle section styles */
 .middleSection {
   background: #fff;
+  /* FIXME: container and row padding*/
+}
+.middleSection .row {
+  margin: 2em 0;
+}
+.middleSection .row:last-child {
+  margin-bottom: 0;
 }
 .middleSection section {
-  padding: 4em 1em;
+  padding: 4em 0;
 }
 
 .intro-developer {
