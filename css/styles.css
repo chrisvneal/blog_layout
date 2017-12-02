@@ -114,9 +114,7 @@ a:hover {
 }
 .middleSection .row {
   margin-top: 2em;
-}
-.middleSection .row:last-child {
-  margin-bottom: 0;
+  margin-bottom: 2em;
 }
 .middleSection section {
   padding: 4em 0;
