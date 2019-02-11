@@ -6,207 +6,157 @@ body {
   font-family: "Libre Franklin", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7rem;
-  color: #464646;
-}
+  color: #464646; }
 
 p {
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .middleSection section p:last-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 hr {
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
 
 /* navigation styles */
 ul.sidelinks {
   list-style-type: none;
-  padding: 0;
-}
-ul.sidelinks a {
-  display: block;
-}
+  padding: 0; }
+  ul.sidelinks a {
+    display: block; }
 
 a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .leftSection a {
-  color: #f0f1f3;
-}
-.leftSection a:hover {
-  color: #80d380;
-}
+  color: #f0f1f3; }
+  .leftSection a:hover {
+    color: #80d380; }
 
 .middleSection nav a {
   font-size: 2rem;
-  color: inherit;
-}
-.middleSection nav a:hover {
-  color: red;
-}
+  color: inherit; }
+  .middleSection nav a:hover {
+    color: red; }
 
 .rightSection [class^="aside-"] a {
-  color: #EC7E2B;
-}
-.rightSection [class^="aside-"] a:hover {
-  color: #b33b24;
-}
-.rightSection [class^="aside-"] a:visited {
-  color: #b33b24;
-}
+  color: #EC7E2B; }
+  .rightSection [class^="aside-"] a:hover {
+    color: #b33b24; }
+  .rightSection [class^="aside-"] a:visited {
+    color: #b33b24; }
 
 /* images styling */
 .brand-logo {
   height: 100px;
   display: block;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .logo {
-  margin: 2em 0 3em;
-}
+  margin: 2em 0 3em; }
 
 .cardib img {
   width: 100%;
-  margin: 3em 0;
-}
+  margin: 3em 0; }
 
 /* general section styles */
 .leftSection li,
 .rightSection li {
   font-size: 1.05rem;
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
 
 .leftSection h2,
 .rightSection h2 {
   font-size: 1.50em;
-  margin-bottom: .65em;
-}
+  margin-bottom: .65em; }
 
 .leftSection .logo ~ div,
 .rightSection aside div {
-  margin-bottom: 4em;
-}
+  margin-bottom: 4em; }
 
 /* left section styles */
 .leftSection {
   padding-left: 1.1em;
   background: #1b1c1b;
-  color: #f0f1f3;
-}
-.leftSection header {
-  margin: 0;
-}
-.leftSection h2 {
-  color: #3db03d;
-}
-.leftSection hr {
-  background-color: #2a2c2a;
-}
+  color: #f0f1f3; }
+  .leftSection header {
+    margin: 0; }
+  .leftSection h2 {
+    color: #3db03d; }
+  .leftSection hr {
+    background-color: #2a2c2a; }
 
 /* middle section styles */
 .middleSection {
-  background: #fff;
-}
-.middleSection .row {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-.middleSection section {
-  padding: 4em 0;
-}
+  background: #fff; }
+  .middleSection .row {
+    margin-top: 2em;
+    margin-bottom: 2em; }
+  .middleSection section {
+    padding: 4em 0; }
 
 .intro-developer {
-  background: #97bad5;
-}
+  background: #97bad5; }
 
 .latestproject {
-  background: #93dfb8;
-}
+  background: #93dfb8; }
 
 .currentlearning {
-  background: #e1e68a;
-}
+  background: #e1e68a; }
 
 /* right section styles */
 .rightSection {
-  background: #f0f1f3;
-}
+  background: #f0f1f3; }
 
 /*--------------------- layout ------------------------
 #####################################################*/
 .site-wrapper {
   max-width: 1700px;
-  width: 100%;
-}
+  width: 100%; }
 
 .flexWrapper {
   display: flex;
-  flex-flow: row wrap;
-}
+  flex-flow: row wrap; }
 
 .leftSection {
   position: fixed;
   top: 0;
   left: 0;
   max-width: 285px;
-  width: 15%;
-}
+  width: 15%; }
 
 .middleSection {
   margin-left: 15%;
   flex: 4;
-  overflow: auto;
-}
+  overflow: auto; }
 
 .rightSection {
   flex: 1;
-  padding-top: 0.5rem;
-}
+  padding-top: 0.5rem; }
 
 .leftSection,
 .middleSection,
 .rightSection {
-  height: 100vh;
-}
+  height: 100vh; }
 
 /*--------------------- media queries ------------------------
 ############################################################*/
 @media screen and (min-width: 1700px) {
   body {
-    background: #1B1C1B;
-  }
-
+    background: #1B1C1B; }
   .site-wrapper {
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap;
-  }
-
+    flex-flow: row wrap; }
   .leftSection {
-    position: static;
-  }
-
+    position: static; }
   .flexWrapper {
-    flex: 2;
-  }
-  .flexWrapper .middleSection {
-    flex: 4;
-    margin: 0;
-  }
-  .flexWrapper .rightSection {
-    flex: 1;
-  }
-}
+    flex: 2; }
+    .flexWrapper .middleSection {
+      flex: 4;
+      margin: 0; }
+    .flexWrapper .rightSection {
+      flex: 1; } }
+
 @media screen and (max-width: 1257px) {
   .leftSection {
-    background: red;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
+    background: red; } }
