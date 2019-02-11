@@ -2,6 +2,7 @@ let gulp = require('gulp');
 let sass = require('gulp-sass');
 let sass_folder = 'src/scss/**/*.scss';
 let css_folder = ('dist/css');
+let html_folder = 'src/**/*.html';
 
 // convert sass to css
 gulp.task('sass', function() {
@@ -11,7 +12,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('html', function() {
-  return gulp.src('src/**/*.html')
+  return gulp.src(html_folder)
     .pipe(gulp.dest('dist'));
 });
 
@@ -19,5 +20,5 @@ gulp.task('html', function() {
 // watch functions
 gulp.task('watch', function() {
   gulp.watch(sass_folder, gulp.series('sass'));
-  gulp.watch('src/**/*.html', gulp.series('html'))
+  gulp.watch(html_folder, gulp.series('html'))
 });
