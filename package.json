@@ -1,0 +1,19 @@
+{
+  "name": "chrisvneal_site_draft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisvneal/chrisvneal_site_draft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisvneal/chrisvneal_site_draft/issues"
+  },
+  "homepage": "https://github.com/chrisvneal/chrisvneal_site_draft#readme"
+}
