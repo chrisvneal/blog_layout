@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chrisvneal/chrisvneal_site_draft/issues"
   },
-  "homepage": "https://github.com/chrisvneal/chrisvneal_site_draft#readme"
+  "homepage": "https://github.com/chrisvneal/chrisvneal_site_draft#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
