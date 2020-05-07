@@ -18,6 +18,6 @@
   "homepage": "https://github.com/chrisvneal/chrisvneal_site_draft#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   }
 }

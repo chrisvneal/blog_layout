@@ -22,3 +22,5 @@ gulp.task('watch', function() {
   gulp.watch(sass_folder, gulp.series('sass'));
   gulp.watch(html_folder, gulp.series('html'))
 });
+
+gulp.task('default', gulp.series('watch'));
