@@ -54,7 +54,7 @@ function scss() {
   return gulp.src(dir.scss_src)
     
     .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefix({
       cascade: false
     }))
