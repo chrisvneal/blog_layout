@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/chrisvneal/chrisvneal_site_draft#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^7.0.1",
