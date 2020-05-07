@@ -1,8 +1,9 @@
-let gulp = require('gulp');
-let sass = require('gulp-sass');
-let sass_folder = 'src/scss/**/*.scss';
-let css_folder = ('dist/css');
-let html_folder = 'src/**/*.html';
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const sass_folder = 'src/scss/**/*.scss';
+const css_folder = 'dist/css';
+const html_folder = 'src/**/*.html';
+const browserSync = require('browser-sync').create();
 
 // convert sass to css
 gulp.task('sass', function() {
